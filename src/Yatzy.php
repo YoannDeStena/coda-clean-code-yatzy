@@ -160,7 +160,7 @@ class Yatzy
         return $sum;
     }
 
-    public function score_pair(int $d1, int $d2, int $d3, int $d4, int $d5): int
+    public function scorePair(int $d1, int $d2, int $d3, int $d4, int $d5): int
     {
         $counts = array_fill(0, 6, 0);
         ++$counts[$d1 - 1];
